@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 function App() {
-    return <div></div>;
+    useEffect(() => {
+        console.log('hello useEffect');
+    });
+
+    return <>useEffect</>;
 }
 
 export default App;
